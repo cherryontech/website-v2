@@ -4,14 +4,20 @@ We are a tech squad! We support each other as we learn and grow in our tech care
 
 ## Tech Stack
 
-Notes
-- 2025.04.25 - keep the below for now as we are setting up the repo
+- This website is built using [Astro](https://astro.build/), a static site generator that allows different frameworks to be used. We are using [React](https://react.dev/) and [Typescript](https://www.typescriptlang.org/) specifically in this Astro project.
 
-#3 Astro Starter Kit: Basics
+## Installation
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+1. Node.js is required (version 18.17.1, 20.3.0, or 22.0.0 or higher). It is recommended that you use [Node Version Manager](https://github.com/nvm-sh/nvm).
+2. Package Manager like `pnpm` or `npm` to manage the dependencies. [Pnpm](https://pnpm.io/installation) is recommended.
+3. Astro CLI runs the development server and other development tasks. See the [Astro documentation](https://docs.astro.build/en/install-and-setup/).
+4. Clone the repo: `git clone https://github.com/cherryontech/website-v2.git`
+5. Go to the source folder: `cd website-v2`
+6. Install dependencies: `pnpm install` or `npm install`
+7. Run the website locally: `pnpm run dev` or `npm run dev`
+8. Visit localhost at http://localhost:4321/
+
+## Original Astro Readme
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
