@@ -4,6 +4,9 @@ We are a tech squad! We support each other as we learn and grow in our tech care
 
 ## Tech Stack
 
+Notes
+- 2025.04.25 - keep the below for now as we are setting up the repo
+
 #3 Astro Starter Kit: Basics
 
 ```sh
