@@ -1,12 +1,12 @@
-# Welcome to CherryOnTech's v2 Website
+# 🍒 Welcome to CherryOnTech's v2 Website
 
 We are a tech squad! We support each other as we learn and grow in our tech careers. We got the idea from [Mo Hampton](https://twitter.com/MoxieHampton)'s [JuneteenthConf](https://www.juneteenthconf.com/) talk, "[Breaking into Tech](https://www.youtube.com/watch?v=2N5fI5j-IIs)." Learn more about us in an upcoming blog post!
 
-## Tech Stack
+## 💻 Tech Stack
 
 - This website is built using [Astro](https://astro.build/), a static site generator that allows different frameworks to be used. We are using [React](https://react.dev/) and [Typescript](https://www.typescriptlang.org/) specifically in this Astro project.
 
-## Installation
+## ⚙️ Installation
 
 1. Node.js is required (version 18.17.1, 20.3.0, or 22.0.0 or higher). It is recommended that you use [Node Version Manager](https://github.com/nvm-sh/nvm).
 2. Package Manager like `pnpm` or `npm` to manage the dependencies. [Pnpm](https://pnpm.io/installation) is recommended.
@@ -37,7 +37,7 @@ Inside of your Astro project, you'll see the following folders and files:
 
 To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-## 🧞 Commands
+## 🗣️ Commands
 
 All commands are run from the root of the project, from a terminal:
 
