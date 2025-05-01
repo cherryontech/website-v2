@@ -1,6 +1,6 @@
 ## This PR fixes...
 
-- https://pascallycarolyny-1739392613473.atlassian.net/browse/CHER-XXX (update the ticket number to include in the PR template)
+- https://pascallycarolyny-1739392613473.atlassian.net/browse/CHER-XXX (⬅️ update the ticket number to include in the PR template)
   _Remove the example below. Then, add the related issue after the hash. Lastly, tell us what problems this PR is meant to solve._
   Ex: This PR fixes #999. We didn't have a unicorn, so we went to the unicorn store and got one.
 
