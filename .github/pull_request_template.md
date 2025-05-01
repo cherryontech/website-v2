@@ -7,7 +7,6 @@
 ## What I did...
 
 _Remove the example below. Then, list out the work you have done, in bullet form._
-Ex:
 
 - one
 - two
