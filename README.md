@@ -19,7 +19,7 @@ We are a tech squad! We support each other as we learn and grow in our tech care
 
 ## 🚀 Project Structure
 
-Below are some original notes from the Astro readme. 
+Below are some original notes from the Astro readme.
 
 Inside of your Astro project, you'll see the following folders and files:
 
