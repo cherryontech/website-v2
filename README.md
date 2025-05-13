@@ -50,6 +50,12 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
+## Deployment
+
+We are using Netlify for deployment and you can view our live project [here](https://cotwebsitev2.netlify.app/).
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/38a539a0-803b-420d-ac59-1781c28e75e6/deploy-status)](https://app.netlify.com/projects/cotwebsitev2/deploys)
+
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
