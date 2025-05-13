@@ -19,7 +19,7 @@ We are a tech squad! We support each other as we learn and grow in our tech care
 
 ## 🚀 Project Structure
 
-Below are some original notes from the Astro readme. 
+Below are some original notes from the Astro readme.
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -49,6 +49,10 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm preview`         | Preview your build locally, before deploying     |
 | `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro -- --help` | Get help using the Astro CLI                     |
+
+## Deploy Preview
+
+To check the status of our project, click here:[https://cotwebsitev2.netlify.app/](https://cotwebsitev2.netlify.app/)
 
 ## 👀 Want to learn more?
 
