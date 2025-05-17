@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer style={{ backgroundColor: '#0a2159', color: '#ffffff'}}>
+    <footer>
       <div>
         <p>CherryOnTech</p>
         <p>Land Acknowledgement</p>
