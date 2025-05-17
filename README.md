@@ -52,9 +52,9 @@ All commands are run from the root of the project, from a terminal:
 
 ## Deployment
 
-We are using Netlify for deployment and you can view our live project [here](https://cotwebsitev2.netlify.app/).
+We are using Netlify for deployment and you can view our live project [here](https://cotwebsite2.netlify.app/).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/38a539a0-803b-420d-ac59-1781c28e75e6/deploy-status)](https://app.netlify.com/projects/cotwebsitev2/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/21038fc7-ee77-46c3-91c5-867fe1e75ea5/deploy-status)](https://app.netlify.com/projects/cotwebsite2/deploys)
 
 ## 👀 Want to learn more?
 
