@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;600;700&display=swap');
+
+/* DESKTOP Heading 1: Geologica - Regular */
+.heading {
+font-family: 'Geologica', sans-serif;
+font-size: 55px;
+font-weight: normal;
+}
+
+/* DEKSTOP Heading 1: Geologica - SemiBold */
+.heading-semi {
+font-family: 'Geologica', sans-serif;
+font-size: 55px;
+font-weight: 600;
+}
+
+/* DESKTOP Heading 2: Lato - Regular */
+.subheading {
+font-family: 'Lato', sans-serif;
+font-size: 43px;
+font-weight: normal;
+}
+
+/* DESKTOP Heading 2: Lato - Bold */
+.subheading_semi {
+font-family: 'Lato', sans-serif;
+font-size: 43px;
+font-weight: bold;
+}
+
+/* DESKTOP Heading 3: Lato - Regular */
+.tertiary{
+font-family: 'Lato', sans-serif;
+font-size: 37px;
+font-weight: normal;
+}
+
+/* DESKTOP Heading 3: Lato - Bold */
+.tertiary-semi{
+font-family: 'Lato', sans-serif;
+font-size: 37px;
+font-weight: bold;
+}
+
+/* DESKTOP Heading 4: Lato - Regular */
+.quarternary{
+font-family: 'Lato', sans-serif;
+font-size: 29px;
+font-weight: normal;
+}
+
+/* DESKTOP Heading 4: Lato - Bold */
+.quarternary-semi{
+font-family: 'Lato', sans-serif;
+font-size: 29px;
+font-weight: bold;
+}
+
