@@ -5,6 +5,7 @@ We are a tech squad! We support each other as we learn and grow in our tech care
 ## 💻 Tech Stack
 
 - This website is built using [Astro](https://astro.build/), a static site generator that allows different frameworks to be used. We are using [React](https://react.dev/) and [Typescript](https://www.typescriptlang.org/) specifically in this Astro project.
+- Also see the v1 [website](https://github.com/cherryontech/website) for reference.
 
 ## ⚙️ Installation
 
