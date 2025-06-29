@@ -17,7 +17,7 @@ function Header() {
               <a href="/programs">Programs</a>
             </li>
             <li>
-              <a href="/getinvolved">Get Involved</a>
+              <a href="/get-involved">Get Involved</a>
             </li>
             <li>
               <a href="/contact">Contact</a>
