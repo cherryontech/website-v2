@@ -1,0 +1,29 @@
+div.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+img.logo {
+    width: 143px;
+    height: 48px;
+}
+
+ul.nav-list {
+    display: flex;
+    gap: 68px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a.subheading {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+div.button-container {
+    display: flex;
+    gap: 20px;
+}
