@@ -1,3 +1,4 @@
 @import './foundations/reset.css';
+@import './foundations/colors.css';
 @import './foundations/typography.css';
 @import './components/buttons.css';
