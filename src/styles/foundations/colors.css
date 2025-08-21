@@ -5,10 +5,12 @@
   --brand-pink50: rgba(246, 206, 213, 0.5);
   --brand-red50: rgba(210, 10, 46, 0.5);
   --white: #FFFFFF;
+  --dark-green: #3A4F39;
 
   --text-primary: #191919;
   --text-secondary: #525252;
   --text-error: #DA1E28;
+  --black-fonts-headings: #2D2E2E;
 
   --button-primary: #0A205A;
   --button-primary-hover: #1E43A4;
