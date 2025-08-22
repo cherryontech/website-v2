@@ -1,0 +1,27 @@
+:root {
+  --brand-blue: #0A205A;
+  --brand-pink: #F6CED5;
+  --brand-red: #D20A2E;
+  --brand-pink50: rgba(246, 206, 213, 0.5);
+  --brand-red50: rgba(210, 10, 46, 0.5);
+  --white: #FFFFFF;
+  --dark-green: #3A4F39;
+
+  --text-primary: #191919;
+  --text-secondary: #525252;
+  --text-error: #DA1E28;
+  --black-fonts-headings: #2D2E2E;
+
+  --button-primary: #0A205A;
+  --button-primary-hover: #1E43A4;
+  --button-primary-active: #B3E1F9;
+  --button-primary-shadow: #1E43A4;
+  --button-secondary: var(--brand-pink);
+  --button-secondary-hover: #E0B7BE;
+  --button-secondary-active: #AA8087;
+  --button-disabled: #E0E0E0;
+  --button-disabled-shadow: #525252;
+
+  --background-brand-red: var(--brand-red);
+  --background-main-white: var(--white);
+}

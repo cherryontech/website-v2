@@ -1,0 +1,113 @@
+/* Primary Button */
+.btn-primary {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-wrap: nowrap;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    background: var(--button-primary);
+    color: var(--white);
+    border-radius: 8px;
+    box-shadow: 4px 4px 0 0 var(--button-primary-shadow);
+    text-decoration: none;
+    line-height: normal;
+    border: 2px solid var(--button-primary);
+}
+
+.btn-primary:hover {
+    background: var(--button-primary-hover);
+    box-shadow: 4px 4px 0 0 var(--button-primary-active);
+    border: 2px solid var(--button-primary-hover);
+}
+
+.btn-primary:active {
+    color: var(--text-primary);
+    background-color: var(--button-primary-active);
+    border: 2px solid var(--button-primary-active);
+    box-shadow: 4px 4px 0 0 var(--button-primary-hover);
+}
+
+.btn-primary:disabled {
+    background-color: var(--button-disabled);
+    color: var(--text-primary);
+    box-shadow: 4px 4px 0 0 var(--button-disabled-shadow);
+    cursor: not-allowed;
+    border: 2px solid var(--button-disabled);
+}
+
+/* Secondary Button */
+.btn-secondary {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-wrap: nowrap;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    background: var(--button-secondary);
+    color: var(--background-brand-red);
+    border-radius: 8px;
+    box-shadow: 4px 4px 0 0 var(--background-brand-red);
+    text-decoration: none;
+    line-height: normal;
+    border: 2px solid var(--button-secondary);
+}
+
+.btn-secondary:hover {
+    color: var(--text-error);
+    background: var(--button-secondary-hover);
+    box-shadow: 4px 4px 0 0 var(--brand-red50);
+    border: 2px solid var(--button-secondary-hover);
+}
+
+.btn-secondary:active {
+    background-color: var(--button-secondary-active);
+    border: 2px solid var(--button-secondary-active);
+}
+
+.btn-secondary:disabled {
+    background-color: var(--button-disabled);
+    color: var(--text-secondary);
+    box-shadow: 4px 4px 0 0 var(--button-disabled-shadow);
+    cursor: not-allowed;
+    border: 2px solid var(--button-disabled);
+}
+
+/* Outline Button */
+.btn-stroke {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-wrap: nowrap;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-main-white);
+    color: var(--text-primary);
+    border-radius: 8px;
+    box-shadow: 4px 4px 0 0 var(--button-primary-shadow);
+    text-decoration: none;
+    line-height: normal;
+    border: 2px solid var(--button-primary);
+}
+
+.btn-stroke:hover {
+    border: 2px solid var(--button-primary-hover);
+}
+
+.btn-stroke:active {
+    border: 2px solid var(--button-primary-active);
+}
+
+.btn-stroke:disabled {
+    background-color: var(--background-main-white);
+    color: var(--text-secondary);
+    box-shadow: 4px 4px 0 0 var(--button-disabled-shadow);
+    border: 2px solid var(--button-disabled-shadow);
+    cursor: not-allowed;
+}
