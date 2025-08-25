@@ -2,3 +2,7 @@
 @import './foundations/colors.css';
 @import './foundations/typography.css';
 @import './components/buttons.css';
+
+* {
+    font-family: 'Lato', sans-serif;
+}

@@ -1,23 +1,99 @@
 import React from 'react';
+import '../styles/components/footer.css';
 
 function Footer() {
   return (
     <footer>
-      <div>
-        <p>CherryOnTech</p>
-        <p>Land Acknowledgement</p>
-        <p>
-          We acknowledge that the work of CherryOnTech takes place on the traditional, stolen, and
-          ancestral lands of Indigenous Peoples across Turtle Island, known today as Canada and the
-          United States. We honour the original caretakers of these lands and recognize their
-          enduring connection to them. As we build inclusive tech spaces, we commit to learning
-          from Indigenous ways of knowing, being, and relating.
-        </p>
-        <p>We are a Canadian Register Non-Profit</p>
-        <ul>
-          <li>Incorporation Number: S0081556</li>
-          <li>Business Number: 79742 6962 BC0001</li>
-        </ul>
+      <div className="footer-container">
+        <a href="/">
+          <img src="logo.png" alt="Organization Logo" className="footer-logo"/>
+        </a>
+
+        <div className="footer-contents">
+          <div className="column1">
+            <div className="land-acknowledgement">
+              <p className="quaternary-bold footer-headings">Land Acknowledgement</p>
+              <p className="body">
+                We acknowledge that the work of CherryOnTech takes place on the traditional, stolen, and
+                ancestral lands of Indigenous Peoples across Turtle Island, known today as Canada and the
+                United States. We honour the original caretakers of these lands and recognize their
+                enduring connection to them. As we build inclusive tech spaces, we commit to learning
+                from Indigenous ways of knowing, being, and relating.
+              </p>
+            </div>
+            <div className="non-profit-info">
+              <p className="quaternary-bold footer-headings">We are a Canadian Registered Non-Profit</p>
+              <ul className="body footer-list">
+                <li>Incorporation Number: S0081556</li>
+                <li>Business Number: 79742 6962 BC0001</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="column2">
+            <div className="quick-link">
+              <p className="quaternary-bold  footer-headings">Quick Link</p>
+              <ul className="body footer-list">
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="">Privacy Policies</a></li>
+                <li><a href="">Code of Conduct</a></li>
+                <li><a href="">Contact us</a></li>
+              </ul>
+            </div>
+
+            <div className="social-icons-container">
+              <ul className="social-icons">
+                <li>
+                  <a href="https://www.linkedin.com/company/cherry-on-tech/" target="_blank" aria-label="LinkedIn">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1747_101834)">
+                        <path
+                            d="M22.2234 0.879028H1.77187C0.792187 0.879028 0 1.65247 0 2.60872V23.1447C0 24.1009 0.792187 24.879 1.77187 24.879H22.2234C23.2031 24.879 24 24.1009 24 23.1493V2.60872C24 1.65247 23.2031 0.879028 22.2234 0.879028ZM7.12031 21.3306H3.55781V9.87434H7.12031V21.3306ZM5.33906 8.3134C4.19531 8.3134 3.27188 7.38997 3.27188 6.2509C3.27188 5.11184 4.19531 4.1884 5.33906 4.1884C6.47813 4.1884 7.40156 5.11184 7.40156 6.2509C7.40156 7.38528 6.47813 8.3134 5.33906 8.3134ZM20.4516 21.3306H16.8937V15.7618C16.8937 14.4353 16.8703 12.7243 15.0422 12.7243C13.1906 12.7243 12.9094 14.1728 12.9094 15.6681V21.3306H9.35625V9.87434H12.7687V11.44H12.8156C13.2891 10.54 14.4516 9.5884 16.1813 9.5884C19.7859 9.5884 20.4516 11.9603 20.4516 15.0447V21.3306Z"
+                            fill="white"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1747_101834">
+                          <rect width="24" height="24" fill="white" transform="translate(0 0.879028)"/>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/cherryontech/" target="_blank" aria-label="Instagram">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1747_101835)">
+                        <path
+                            d="M12 3.03997C15.2063 3.03997 15.5859 3.05403 16.8469 3.11028C18.0188 3.16184 18.6516 3.35872 19.0734 3.52278C19.6313 3.7384 20.0344 4.0009 20.4516 4.41809C20.8734 4.83997 21.1313 5.2384 21.3469 5.79622C21.5109 6.21809 21.7078 6.85559 21.7594 8.02278C21.8156 9.2884 21.8297 9.66809 21.8297 12.8697C21.8297 16.0759 21.8156 16.4556 21.7594 17.7165C21.7078 18.8884 21.5109 19.5212 21.3469 19.9431C21.1313 20.5009 20.8687 20.904 20.4516 21.3212C20.0297 21.7431 19.6313 22.0009 19.0734 22.2165C18.6516 22.3806 18.0141 22.5775 16.8469 22.629C15.5813 22.6853 15.2016 22.6993 12 22.6993C8.79375 22.6993 8.41406 22.6853 7.15313 22.629C5.98125 22.5775 5.34844 22.3806 4.92656 22.2165C4.36875 22.0009 3.96563 21.7384 3.54844 21.3212C3.12656 20.8993 2.86875 20.5009 2.65313 19.9431C2.48906 19.5212 2.29219 18.8837 2.24063 17.7165C2.18438 16.4509 2.17031 16.0712 2.17031 12.8697C2.17031 9.6634 2.18438 9.28372 2.24063 8.02278C2.29219 6.8509 2.48906 6.21809 2.65313 5.79622C2.86875 5.2384 3.13125 4.83528 3.54844 4.41809C3.97031 3.99622 4.36875 3.7384 4.92656 3.52278C5.34844 3.35872 5.98594 3.16184 7.15313 3.11028C8.41406 3.05403 8.79375 3.03997 12 3.03997ZM12 0.879028C8.74219 0.879028 8.33438 0.893091 7.05469 0.949341C5.77969 1.00559 4.90313 1.21184 4.14375 1.50715C3.35156 1.81653 2.68125 2.22434 2.01563 2.89465C1.34531 3.56028 0.9375 4.23059 0.628125 5.01809C0.332812 5.78215 0.126563 6.65403 0.0703125 7.92903C0.0140625 9.2134 0 9.62122 0 12.879C0 16.1368 0.0140625 16.5447 0.0703125 17.8243C0.126563 19.0993 0.332812 19.9759 0.628125 20.7353C0.9375 21.5275 1.34531 22.1978 2.01563 22.8634C2.68125 23.529 3.35156 23.9415 4.13906 24.2462C4.90313 24.5415 5.775 24.7478 7.05 24.804C8.32969 24.8603 8.7375 24.8743 11.9953 24.8743C15.2531 24.8743 15.6609 24.8603 16.9406 24.804C18.2156 24.7478 19.0922 24.5415 19.8516 24.2462C20.6391 23.9415 21.3094 23.529 21.975 22.8634C22.6406 22.1978 23.0531 21.5275 23.3578 20.74C23.6531 19.9759 23.8594 19.104 23.9156 17.829C23.9719 16.5493 23.9859 16.1415 23.9859 12.8837C23.9859 9.6259 23.9719 9.21809 23.9156 7.9384C23.8594 6.6634 23.6531 5.78684 23.3578 5.02747C23.0625 4.23059 22.6547 3.56028 21.9844 2.89465C21.3188 2.22903 20.6484 1.81653 19.8609 1.51184C19.0969 1.21653 18.225 1.01028 16.95 0.954028C15.6656 0.893091 15.2578 0.879028 12 0.879028Z"
+                            fill="white"/>
+                        <path
+                            d="M12 6.71497C8.59688 6.71497 5.83594 9.4759 5.83594 12.879C5.83594 16.2822 8.59688 19.0431 12 19.0431C15.4031 19.0431 18.1641 16.2822 18.1641 12.879C18.1641 9.4759 15.4031 6.71497 12 6.71497ZM12 16.8775C9.79219 16.8775 8.00156 15.0868 8.00156 12.879C8.00156 10.6712 9.79219 8.88059 12 8.88059C14.2078 8.88059 15.9984 10.6712 15.9984 12.879C15.9984 15.0868 14.2078 16.8775 12 16.8775Z"
+                            fill="white"/>
+                        <path
+                            d="M19.8469 6.47117C19.8469 7.26804 19.2 7.91023 18.4078 7.91023C17.6109 7.91023 16.9688 7.26336 16.9688 6.47117C16.9688 5.67429 17.6156 5.0321 18.4078 5.0321C19.2 5.0321 19.8469 5.67898 19.8469 6.47117Z"
+                            fill="white"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1747_101835">
+                          <rect width="24" height="24" fill="white" transform="translate(0 0.879028)"/>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/@cherryontech" target="_blank" aria-label="YouTube">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                          d="M23.7609 8.07908C23.7609 8.07908 23.5266 6.42439 22.8047 5.69783C21.8906 4.74158 20.8688 4.73689 20.4 4.68064C17.0438 4.43689 12.0047 4.43689 12.0047 4.43689H11.9953C11.9953 4.43689 6.95625 4.43689 3.6 4.68064C3.13125 4.73689 2.10938 4.74158 1.19531 5.69783C0.473438 6.42439 0.24375 8.07908 0.24375 8.07908C0.24375 8.07908 0 10.0244 0 11.965V13.7838C0 15.7244 0.239062 17.6697 0.239062 17.6697C0.239062 17.6697 0.473437 19.3244 1.19062 20.051C2.10469 21.0072 3.30469 20.9744 3.83906 21.0775C5.76094 21.2603 12 21.3166 12 21.3166C12 21.3166 17.0438 21.3072 20.4 21.0681C20.8688 21.0119 21.8906 21.0072 22.8047 20.051C23.5266 19.3244 23.7609 17.6697 23.7609 17.6697C23.7609 17.6697 24 15.7291 24 13.7838V11.965C24 10.0244 23.7609 8.07908 23.7609 8.07908ZM9.52031 15.9916V9.24626L16.0031 12.6306L9.52031 15.9916Z"
+                          fill="white"/>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   );
