@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="footer-container">
         <a href="/">
-          <img src="logo.png" alt="Organization Logo" className="footer-logo"/>
+          <img src="/logo.png" alt="Organization Logo" className="footer-logo"/>
         </a>
 
         <div className="footer-contents">

@@ -12,7 +12,7 @@ function Header() {
     <header>
       <div className="header-container">
         <a href="/">
-          <img src="cherry-on-tech.png" alt="Organization Logo" className="logo" />
+          <img src="/cherry-on-tech.png" alt="Organization Logo" className="logo" />
         </a>
 
         <button
@@ -53,7 +53,7 @@ function Header() {
         <div className={`mobile-menu ${isMobileMenuOpen ? 'active' : ''}`}>
           <div className="mobile-menu-container">
             <a href="/">
-              <img src="cherry-on-tech.png" alt="Organization Logo" className="logo"/>
+              <img src="/cherry-on-tech.png" alt="Organization Logo" className="logo"/>
             </a>
               <nav className="mobile-nav">
                 <ul className="mobile-nav-list">
